@@ -25,6 +25,11 @@ with others.
 Reset
 ================================*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap');
+
 html,
 body {
     border: none;
@@ -4413,7 +4418,7 @@ Media Queries
 }
 
 .caption {
-    position: absolute;left: 120px;top: 300px;max-width: 41%;font-size: 50px;
+    position: absolute; right: 120px;top: 300px;max-width: 41%;font-size: 50px;
 }
 
 
@@ -4436,8 +4441,58 @@ body header.entry-header.has-text-align-center.header-footer-group {background-s
 footer#site-footer {background: #000;color: #fff;}
 .header-toggles.hide-no-js {display: none;}
 
-.woocommerce ul.products li.product a img {height: 200px;}
+.woocommerce ul.products li.product a { text-align: center; }
+.woocommerce ul.products li.product a img {height: 300px; }
 
 .woocommerce ul.products li.product .onsale {right: 6px;top: 6px;font-size: 12px;}
 
-body .woocommerce .woocommerce-ordering select {margin-right: 5px;}
+body .woocommerce .woocommerce-ordering select { font-size: 13px; margin-right: 5px;}
+
+
+body .woocommerce ul.products li.product .button {
+    background-color: #900;
+    font-family: Montserrat;
+    display: none;
+}
+
+body .woocommerce ul.products li.product .onsale {
+    right: 16px;
+    top: 16px;
+    font-size: 12px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+a.added_to_cart.wc-forward {text-align: center;width: 100%; 
+    font-size: 16px;
+    font-family: Montserrat; }
+    
+section#particles-js {background: url("http://localhost/projects/AM-Moiz/jewelrysite/wp-content/themes/prologe-lite/assets/images/bg2.jpg")  !important;background-size: 100% 100%;}
+header.entry-header {background: #ddd;padding: 120px;text-align: left;text-transform: capitalize;background-image: url("http://localhost/projects/AM-Moiz/jewelrysite/wp-content/uploads/2022/05/Shop-TA-img.jpg");background-size: cover;background-repeat: no-repeat;background-position: center right;}
+ .template-right .entry-content, .single-right .entry-content {padding-left: 0;padding-right: 0;max-width: 1170px;}
+
+.woocommerce table.shop_table th {background-color: transparent;border: 0;color: #000;font-family: "Playfair Display";}
+
+
+.woocommerce table.shop_table {border: 0;}
+
+#add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text {min-width: 160px;height: 40px;font-family: 'Montserrat';}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce .cart .button, .woocommerce .cart input.button {font-size: 12px;height: 40px;font-family: 'Montserrat'; background-color: #900; color: #fff !important; }
+
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {background-color: #900;font-size: 16px;border-radius: 0; color: #fff;}
+
+h1, h2, h3, h4, h5, h6, .entry-title a, .entry-title a:visited, .template-frontpage.page .entry-title {font-family: "Playfair Display";}
+
+.header-navigation-wrapper {margin-right: auto;}
+
+
+.woocommerce ul.products li.product .price,
+.woocommerce .woocommerce-ordering select,
+.woocommerce .woocommerce-result-count {font-family: 'Montserrat';font-size: 13px;text-transform: uppercase;}
+.woocommerce ul.products li.product .price ins {color: #000;text-decoration: none;}
+
+.entry-header-inner, .single .entry-title {max-width: 1170px;}
+
+#archive-title a, .page .entry-title a {font-family: 'Montserrat';font-size: 20px;letter-spacing: 4px;text-transform: uppercase;}
